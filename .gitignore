@@ -1,0 +1,10 @@
+# Secrets (DO NOT COMMIT)
+secrets/
+*.txt
+
+# Installer archives
+*.tar
+*.tar.gz
+
+# Logs
+*.log
