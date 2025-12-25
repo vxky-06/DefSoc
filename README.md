@@ -51,11 +51,15 @@ Ubuntu Server (DefSOC Core)
 - Secure SSH access
 - Network stability verification
 
-### 🚧 Phase 3 – SOC Implementation (In Progress)
-- Wazuh All-in-One installation
-- Dashboard configuration
-- Agent deployment (Ubuntu & Kali)
-- Attack simulation and alert validation
+## Phase 3 – Agent Enrollment & Validation
+
+- Enrolled Ubuntu Server as a Wazuh agent using authenticated enrollment
+- Established secure communication between agent and manager
+- Validated agent health via CLI and Wazuh Dashboard
+- Enabled SOC monitoring modules (FIM, SCA, Rootcheck, Syscollector)
+- Hardened setup by disabling agent enrollment port after completion
+
+📸 Evidence: `screenshots/phase3/`
 
 ---
 
